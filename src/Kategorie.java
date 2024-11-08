@@ -1,8 +1,8 @@
+/*
+ * Die Klasse "Kategorie" repräsentiert eine Kategorie, die in der Haushaltsbuch-Anwendung verwendet wird.
+ * Jede Kategorie hat einen Namen, der durch das Attribut "name" repräsentiert wird.
+ */
 public class Kategorie {
-    /*
-     * Die Klasse "Kategorie" repräsentiert eine Kategorie, die in der Haushaltsbuch-Anwendung verwendet wird.
-     * Jede Kategorie hat einen Namen, der durch das Attribut "name" repräsentiert wird.
-     */
 
     // Attribut zur Speicherung des Namens der Kategorie
     private final String name;

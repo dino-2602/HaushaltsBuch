@@ -4,11 +4,13 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class KategorieAuswahl extends JDialog {
+
     /*
      * JTextField zur Eingabe des Namens der neuen Kategorie.
      * Der Name darf maximal 25 Zeichen lang sein.
      */
     private final JTextField nameField;
+
     /*
      * Speichert die neu erstellte Kategorie, nachdem der Benutzer sie bestätigt hat.
      */
@@ -25,6 +27,7 @@ public class KategorieAuswahl extends JDialog {
 
         // Label für das Eingabefeld der Kategoriebezeichnung hinzufügen
         add(new JLabel("Name (max 25 Zeichen):"));
+
         // Textfeld für die Eingabe des Kategorienamen
         nameField = new JTextField();
         add(nameField);

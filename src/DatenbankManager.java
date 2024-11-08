@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DatenbankManager {
+
     /*
      * URL, Benutzername und Passwort für die Verbindung zur MySQL-Datenbank.
      * Diese Werte werden verwendet, um eine Verbindung zur Datenbank herzustellen,
@@ -21,6 +22,7 @@ public class DatenbankManager {
     public DatenbankManager() {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD)) {
             if (conn != null) {
+
                 // SQL-Befehl zum Erstellen der Tabelle "eintraege", falls diese nicht existiert.
                 String createEintraegeTableSQL = "CREATE TABLE IF NOT EXISTS eintraege ("
                         + "id INT AUTO_INCREMENT PRIMARY KEY, "

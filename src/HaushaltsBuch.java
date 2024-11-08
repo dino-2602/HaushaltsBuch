@@ -18,20 +18,22 @@ import java.util.List;
 import java.util.Locale;
 
 public class HaushaltsBuch extends JFrame {
+
     /*
      * DefaultTableModel verwaltet die Daten für die JTable, einschließlich Spaltennamen und Zeilen mit Daten.
      * Es ermöglicht das dynamische Hinzufügen, Bearbeiten und Löschen von Datenzeilen in der Tabelle.
      */
     private final DefaultTableModel tableModel;
+
     /*
      * TableRowSorter wird verwendet, um die Sortierfunktionalität für die Tabelle zu aktivieren.
      * Ermöglicht es dem Benutzer, die Tabellenzeilen nach Spalten zu sortieren.
      */
     private final TableRowSorter<DefaultTableModel> sorter;
-    /*
-     * DatenbankManager verwaltet die Datenbankoperationen, wie das Abrufen, Hinzufügen und Löschen von Einträgen.
-     */
+
+    // DatenbankManager verwaltet die Datenbankoperationen, wie das Abrufen, Hinzufügen und Löschen von Einträgen.
     private final DatenbankManager dbManager = new DatenbankManager();
+
     // Textfelder und andere UI-Komponenten zum Eingeben und Anzeigen von Daten.
     private final JTextField betragField;
     private final JTextArea infoField;
@@ -42,6 +44,7 @@ public class HaushaltsBuch extends JFrame {
     private final JComboBox<String> filterColumnBox;
 
     public HaushaltsBuch() {
+
         /*
          * Einrichtung des Hauptfensters der Haushaltsbuch-Anwendung.
          * Setzt die Größe, den Titel und das Layout des Fensters.
@@ -52,9 +55,7 @@ public class HaushaltsBuch extends JFrame {
         setLayout(new BorderLayout());
         setLocationRelativeTo(null);
 
-        /*
-         * Erstellen einer Menüleiste mit Optionen zum Löschen aller Einträge oder Kategorien.
-         */
+         //Erstellen einer Menüleiste mit Optionen zum Löschen aller Einträge oder Kategorien.
         JMenuBar menuBar = new JMenuBar();
         JMenu menu = new JMenu("Optionen");
         JMenuItem deleteAllItem = new JMenuItem("Alle Einträge löschen");
@@ -542,7 +543,7 @@ public class HaushaltsBuch extends JFrame {
              PreparedStatement pstmt = conn.prepareStatement(updateSql)) {
 
             pstmt.setString(1, bezeichnung);
-            pstmt.setDouble(2, Math.abs(betrag)); // Speichern des absoluten Betrags
+            pstmt.setDouble(2, Math.abs(betrag));
             pstmt.setDate(3, Date.valueOf(datum));
             pstmt.setString(4, info);
             pstmt.setString(5, bezeichnung);

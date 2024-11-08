@@ -1,6 +1,7 @@
 import java.time.LocalDate;
 
 public class Eintrag {
+
     /*
      * ID des Eintrags, die eindeutige Identifizierung ermöglicht.
      * Diese ID wird in der Datenbank als Primärschlüssel verwendet.
@@ -37,9 +38,8 @@ public class Eintrag {
      */
     private final Kategorie kategorie;
 
-    /*
-     * Typ der Transaktion, gibt an, ob es sich um eine "Einnahme" oder "Ausgabe" handelt.
-     */
+
+    //Typ der Transaktion, gibt an, ob es sich um eine "Einnahme" oder "Ausgabe" handelt.
     private final String typ;
 
 
