@@ -143,7 +143,7 @@ Diese Methode stellt sicher, dass der `betrag`-Wert als absoluter Wert in der Da
 
 ## Installation
 ```cmd
-git clone https://github.com/dino-2602/Hangman
+git clone https://github.com/dino-2602/HaushaltsBuch
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
