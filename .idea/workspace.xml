@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="76e35a17-0a48-427d-a6d6-5d614f08b0af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Kategorie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HaushaltsBuch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HaushaltsBuch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatenbankManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatenbankManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eintrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eintrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HaushaltsBuch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HaushaltsBuch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kategorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kategorie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KategorieAuswahl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KategorieAuswahl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +28,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dino-2602"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dino-2602/HaushaltsBuch.git",
+    "accountId": "ef37ff47-c98e-4b10-ac22-e2ef05ab34b7"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/DatenbankManager.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/HaushaltsBuch.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2oLG6S5D0fu8XtLvB2E7LYi7aQF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -30,15 +55,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HaushaltsBuch.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="HaushaltsBuch" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="HaushaltsBuch" />
+      <module name="HaushaltsBuch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,7 +101,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730641267223</updated>
-      <workItem from="1730641268108" duration="36000" />
+      <workItem from="1730641268108" duration="14357000" />
+      <workItem from="1730703052086" duration="5524000" />
+      <workItem from="1730708836432" duration="253000" />
+      <workItem from="1730800196125" duration="4916000" />
+      <workItem from="1730814905152" duration="826000" />
+      <workItem from="1730877485691" duration="935000" />
+      <workItem from="1731048068758" duration="3125000" />
+      <workItem from="1731057493652" duration="3252000" />
     </task>
     <servers />
   </component>
