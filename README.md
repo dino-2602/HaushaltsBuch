@@ -37,11 +37,16 @@ Dieses Projekt ist eine Java-basierte Desktop-Anwendung zur Verwaltung der Haush
 ## Nutzung
 
 - **Einträge hinzufügen**: Füllen Sie den Betrag, die Info, die Kategorie und den Typ aus und klicken Sie auf "Speichern".
-  !
+    https://github.com/dino-2602/HaushaltsBuch/blob/master/screenshots/Screenshot%202024-11-08%20105611.png
 
 - **Einträge bearbeiten**: Doppelklicken Sie auf eine Zelle, um deren Wert zu bearbeiten.
+    https://github.com/dino-2602/HaushaltsBuch/blob/master/screenshots/Screenshot%202024-11-08%20105823.png
+    
 - **Einträge löschen**: Wählen Sie eine oder mehrere Zeilen aus, klicken Sie mit der rechten Maustaste und wählen Sie "Löschen".
+    https://github.com/dino-2602/HaushaltsBuch/blob/master/screenshots/Screenshot%202024-11-08%20110107.png
+
 - **Einträge filtern**: Verwenden Sie das Filterfeld unten, um nach bestimmten Einträgen zu suchen.
+    https://github.com/dino-2602/HaushaltsBuch/blob/master/screenshots/Screenshot%202024-11-08%20110216.png
 
 ## Abhängigkeiten
 
